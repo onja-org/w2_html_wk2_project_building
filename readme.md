@@ -2,12 +2,12 @@
 
 You've learned a lot about HTML during this week. Now it's time to share what you've learned. In this exercise, you need to create a website that can help others learn HTML.
 
-**Estimated Completion Time:** a full day (~7:30 AM - 3:30 PM, with reasonable breaks)
+**Estimated Completion Time:** 5 hours 30 minutes
 
 - [Sections](#sections)
 - [Pages](#pages)
 - [Getting started](#getting-started)
-- [What you'll be marked on](#what-youll-be-marked-on)
+- [How to check your work](#how-to-check-your-work)
 - [Some hints](#some-hints)
 
 ## Sections
@@ -40,7 +40,7 @@ The homepage needs to:
 
 ### List of HTML rules page
 
-There are many rules for coding or writing HTML. List **at least 15 rules**, one sentence per rule.
+There are many rules for coding or writing HTML. List as many rules as you can, ideally around 15, one sentence per rule.
 
 Two of the rules need to be links to their own pages:
 
@@ -69,16 +69,16 @@ In this page, you'll need:
 - a "Don't do this!" code example of using attributes
 - a "Do this instead" code example of using attributes
 
-### List of all elements page
+### List of elements page
 
 In this page, we need:
 
 - a good title
 - a definition of an HTML 'element' and what bits make up an 'element'
-- a list of ~90–100 HTML5 elements organized by **category** (e.g. sectioning, text content, forms, media) rather than one long undifferentiated list
+- a list of commonly used HTML5 elements, organized by **category** (e.g. sectioning, text content, forms, media) rather than one long undifferentiated list
+  - Gather as many as you can, ideally around 90. You do not need to get every variant
   - Recommended: use a table with columns like `Element`, `Purpose`, `Self-closing?`, or group elements in sections with headings
-  - Focus on the most common/useful elements, not every single variant
-  - You don't need to recreate the entire MDN spec — pick the ones you think are most important to teach
+  - Pick the ones you think are most important to teach. You don't need to recreate the entire MDN spec
 
 **Quick reference:** See `lab/elements-reference.md` in this repo for a starter list of elements organized by category, or [MDN's HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for the complete, canonical list.
 
@@ -99,14 +99,14 @@ This page is a chance to get personal. Give your reader at least 3 tips on how t
 1. Create and push the `gh-pages` branch, and enable 'GitHub Pages' on that branch in the repo settings.
 1. Add the URL for this website to the `README.md` file
 1. Use `main` as your default development branch, only merging to `gh-pages` when you're ready to publish your changes.
-1. In your repo root, create an `index.html` file and link it to your other pages (rules, elements, tips)
+1. In your repo root, create an `index.html` file (you can start from the scaffold in `lab/index.html`) and link it to your other pages (rules, elements, tips)
 1. Get coding!
 
 **Expected repo structure:**
 ```
 learning-html/
 ├── index.html              (homepage)
-├── elements.html           (all HTML5 elements list)
+├── elements.html           (commonly used HTML5 elements list)
 ├── rules.html              (all HTML rules)
 ├── nesting-rules.html      (detail page)
 ├── attribute-rules.html    (detail page)
@@ -118,11 +118,11 @@ learning-html/
 
 You don't need to match this exactly — organize how it makes sense to you.
 
-## What you'll be marked on
+## How to check your work
 
-Your project will be evaluated on:
+This project is practice, so nobody grades it. Use this checklist to check your own work:
 
-- **Your use of English** (Spelling, Grammar) — proof-read your text before submitting
+- **Your use of English** (Spelling, Grammar) — proof-read your text before you finish
 - **Your code cleanliness** (Is it easy to read, and free of garbage?)
   - ✅ Good: Proper indentation, semantic elements, closing tags, descriptive file/variable names
   - ❌ Bad: Inconsistent indentation, unnecessary `<div>` wrappers, missing closing tags, inline styles mixed with structure
@@ -130,16 +130,16 @@ Your project will be evaluated on:
   - Example: Use `<nav>` for navigation, `<article>` for self-contained content, `<table>` for tabular data
 - **Your Git commits, pushes, branch use** — meaningful commit messages, regular commits, use of main/gh-pages branches
 
-You could also lose points if there are any:
+Also watch out for:
 
-- **404s for any of your links** — test every link before submitting
-- **validation errors in the W3C validator** — Warnings are OK, but errors must be fixed
+- **404s for any of your links** — test every link
+- **validation errors in the W3C validator** — Warnings are OK, but errors should be fixed
 
 ## Some hints
 
 - **Try to be consistent** — same indentation, same navigation structure on every page, consistent link naming
 - **Keep your HTML clean and easy to read** — use proper indentation (2-4 spaces per level), avoid unnecessary divs, use semantic elements
-- **Spell-check and proof-read your English** — this is graded
+- **Spell-check and proof-read your English** — check for typos and grammar mistakes
 - **Validate and test your work** — use [W3C Validator](https://validator.w3.org/) to check for errors; test every link
 - **Do your URLs make structural and meaningful sense?** — file names should reflect content (`elements.html`, not `page2.html`)
 - **Document your folder structure in the README.md** — explain how students (or your future self) should run and develop this site

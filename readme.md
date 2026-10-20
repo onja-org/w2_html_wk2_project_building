@@ -106,18 +106,15 @@ This page is a chance to get personal. Give your reader at least 3 tips on how t
 1. In your repo root, create an `index.html` file (you can start from the scaffold in `lab/index.html`) and link it to your other pages (rules, elements, tips)
 1. Get coding!
 
-**Expected repo structure:**
+**Expected repo structure:**yes
+
 ```
-learning-html/
-├── index.html              (homepage)
-├── elements.html           (commonly used HTML5 elements list)
-├── rules.html              (all HTML rules)
-├── nesting-rules.html      (detail page)
-├── attribute-rules.html    (detail page)
-├── tips.html               (tips for writing HTML)
-├── css/                    (optional: styling)
-├── images/                 (optional: screenshots, examples)
-└── README.md               (project documentation)
+w2_html_wk2_project_building/
+├── lab/
+│   ├── elements-reference.md
+│   └── index.html
+├── README.html
+└── readme.md
 ```
 
 You don't need to match this exactly — organize how it makes sense to you.

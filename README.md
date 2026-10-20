@@ -114,7 +114,7 @@ w2_html_wk2_project_building/
 │   ├── elements-reference.md
 │   └── index.html
 ├── README.html
-└── readme.md
+└── README.md
 ```
 
 You don't need to match this exactly — organize how it makes sense to you.

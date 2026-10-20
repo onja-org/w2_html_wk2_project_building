@@ -1,8 +1,12 @@
 # HTML - PROJECT BUILDING: About Learning HTML
 
+**Estimated time:** 5 hour 30 minutes
+
+**Block:** HTML · Week 2
+
+
 You've learned a lot about HTML during this week. Now it's time to share what you've learned. In this exercise, you need to create a website that can help others learn HTML.
 
-**Estimated Completion Time:** 5 hours 30 minutes
 
 - [Sections](#sections)
 - [Pages](#pages)
@@ -145,3 +149,5 @@ Also watch out for:
 - **Document your folder structure in the README.md** — explain how students (or your future self) should run and develop this site
 - **Link to your own pages when relevant** — if you write about an element, link to it in your elements page
 - **Commit frequently with meaningful messages** — e.g., `git commit -m "Add elements page with table structure"` not just `git commit -m "update"`
+
+*HTML · Week 2 · Coding System Wave 2*

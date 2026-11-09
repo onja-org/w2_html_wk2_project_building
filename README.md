@@ -1,6 +1,6 @@
 # HTML - PROJECT BUILDING: About Learning HTML
 
-**Estimated time:** 5 hour 30 minutes
+**Estimated time:** 5 hours 30 minutes
 
 **Block:** HTML · Week 2
 
@@ -106,7 +106,7 @@ This page is a chance to get personal. Give your reader at least 3 tips on how t
 1. In your repo root, create an `index.html` file (you can start from the scaffold in `lab/index.html`) and link it to your other pages (rules, elements, tips)
 1. Get coding!
 
-**Expected repo structure:**yes
+**Expected repo structure:**
 
 ```
 w2_html_wk2_project_building/
